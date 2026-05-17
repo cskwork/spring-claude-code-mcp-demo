@@ -39,7 +39,7 @@
 
 - 강의: https://inflearn.com/course/spring-claude-code-mcp (출시 예정)
 - 강사: 채성국 — 7년차 백엔드, 동아출판 AX 전환 TF
-- GitHub: https://github.com/cskwork · Contact: csk@gmail.com
+- GitHub: https://github.com/cskwork · Contact: csk917work@gmail.com
 
 ## License
 
