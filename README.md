@@ -9,7 +9,7 @@
 |---|---|---|---|
 | 1 | `ch01-baseline` | Spring Boot 베이스라인 — 주문 조회 API | ✅ |
 | 2 | `ch02-claude-code` | Claude Code 도입 · `CLAUDE.md` 컨벤션 · OpenAPI 어노테이션 | ✅ |
-| 3 | `ch03-mcp-intro` | MCP 개념 정리 (코드 없음) | ⏳ |
+| 3 | `ch03-mcp-intro` | MCP 개념 정리 (코드 없음) | ✅ |
 | 4 | `ch04-mcp-server` | MCP 서버 — 도구 3개 (사용자/주문/상태) | ⏳ |
 | 5 | `ch05-batch-as-tool` | Spring Batch Job을 MCP 도구로 노출 | ⏳ |
 | 6 | `ch06-security` | Redaction Proxy · Scoped Token · Audit Sink | ⏳ |
