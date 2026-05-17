@@ -5,16 +5,16 @@
 
 ## 강의 매핑
 
-| Chapter | Tag | Topic |
-|---|---|---|
-| 1 | `ch01-baseline` | Spring Boot 베이스라인 — 주문 조회 API |
-| 2 | `ch02-claude-code` | Claude Code 도입 · `CLAUDE.md` 컨벤션 |
-| 3 | `ch03-mcp-intro` | MCP 개념 정리 (코드 없음) |
-| 4 | `ch04-mcp-server` | MCP 서버 — 도구 3개 (사용자/주문/상태) |
-| 5 | `ch05-batch-as-tool` | Spring Batch Job을 MCP 도구로 노출 |
-| 6 | `ch06-security` | Redaction Proxy · Scoped Token · Audit Sink |
-| 7 | `ch07-rollout` | 사내 도입 30일 로드맵 (코드 없음) |
-| 8 | `ch08-wrapup` | 마무리 + 다음 단계 |
+| Chapter | Tag | Topic | Status |
+|---|---|---|---|
+| 1 | `ch01-baseline` | Spring Boot 베이스라인 — 주문 조회 API | ✅ |
+| 2 | `ch02-claude-code` | Claude Code 도입 · `CLAUDE.md` 컨벤션 | ⏳ |
+| 3 | `ch03-mcp-intro` | MCP 개념 정리 (코드 없음) | ⏳ |
+| 4 | `ch04-mcp-server` | MCP 서버 — 도구 3개 (사용자/주문/상태) | ⏳ |
+| 5 | `ch05-batch-as-tool` | Spring Batch Job을 MCP 도구로 노출 | ⏳ |
+| 6 | `ch06-security` | Redaction Proxy · Scoped Token · Audit Sink | ⏳ |
+| 7 | `ch07-rollout` | 사내 도입 30일 로드맵 (코드 없음) | ⏳ |
+| 8 | `ch08-wrapup` | 마무리 + 다음 단계 | ⏳ |
 
 ## 구조
 
@@ -31,8 +31,17 @@
 ## Quick Start
 
 ```bash
-./gradlew :app:bootRun
-./gradlew :mcp-server:run
+./gradlew :app:bootRun         # http://localhost:8080/api/orders
+./gradlew :app:test            # 3 cases
+# mcp-server는 ch04부터
+```
+
+빠른 확인:
+
+```bash
+curl -s http://localhost:8080/api/orders | jq .
+curl -s http://localhost:8080/api/orders/1 | jq .
+curl -i http://localhost:8080/api/orders/9999   # 404
 ```
 
 ## 강의 / 강사
