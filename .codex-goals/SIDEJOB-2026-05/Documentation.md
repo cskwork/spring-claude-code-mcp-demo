@@ -1,7 +1,7 @@
 # Documentation — audit log + APPROVED token landing zone
 
 > Codex `/goal` Ralph 루프가 매 마일스톤 완료 시 이 파일에 append 합니다.
-> 사용자(채성국)는 HUMAN GATE 도달 시 `APPROVED:Gx — <한 줄 메모>` 토큰을 기록합니다.
+> 사용자(개발자)는 HUMAN GATE 도달 시 `APPROVED:Gx — <한 줄 메모>` 토큰을 기록합니다.
 
 ## Approve / Reject 토큰 형식
 

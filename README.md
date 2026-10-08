@@ -48,8 +48,8 @@ open http://localhost:8080/swagger-ui.html         # ch02부터
 ## 강의 / 강사
 
 - 강의: https://inflearn.com/course/spring-claude-code-mcp (출시 예정)
-- 강사: 채성국 — 7년차 백엔드, AI 통합 TF Lead
-- GitHub: https://github.com/cskwork · Contact: csk917work@gmail.com
+- 강사: 개발자 — 7년차 백엔드, AI 통합 TF Lead
+- GitHub: https://github.com/cskwork · Contact: 연락처 비공개
 
 ## License
 
